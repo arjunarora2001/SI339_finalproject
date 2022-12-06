@@ -71,7 +71,7 @@ header nav a:hover {
     width: 100%;
 }
 
-#kolkataClose {
+.kolkataClose {
     font-size: 20px;
 }
 
@@ -101,7 +101,7 @@ header nav a:hover {
     margin: 5px;
 }
 
-#PicturesOfCricketersText {
+.PicturesOfCricketersText {
     padding-top: 50px;
     text-align: center;
     text-decoration: underline;
@@ -153,13 +153,13 @@ header nav a:hover {
     font-size: 20px;
 }
 
-#indiaNotablePlayers {
+.indiaNotablePlayers {
     display: grid;
     grid-template-columns: 75%;
     justify-content: center;
 }
 
-#someNotable {
+.someNotable {
     text-align: center;
     text-decoration: underline;
 }
@@ -189,11 +189,11 @@ header nav a:hover {
     border: 2px solid black;
 }
 
-#murliPics, #goldenPics, #donPics {
+#murliPics, #goldenPics, .donPics {
     display: none;
 }
 
-#sachin {
+.sachin {
     /* text-align: right; */
     font-size: 20px;
     border: 2px solid black;
@@ -203,7 +203,7 @@ header nav a:hover {
 
 
 
-#sachin p {
+.sachin p {
     grid-column: 2 span 1;
     font-size: 20px;
 }
@@ -255,18 +255,18 @@ header nav a:hover {
     object-fit: cover;
     border: 4px solid black;
 }
-#yuvraj {
+.yuvraj {
     font-size: 20px;
     border: 2px solid black;
     grid-row-start: 3;
     grid-column-start: 1;
 }
 
-#yuvrajVideo {
+.yuvrajVideo {
     display: none;
 }
 
-#firstVideo {
+.firstVideo {
     display: none;
     grid-row-start: 2;
 }
@@ -286,18 +286,19 @@ header nav a:hover {
     overflow: auto;
 }
 
-#frontPic img {
+.frontPic img {
     width: 30%;
     height: 30%;
     object-fit: cover;
     margin-top: -10px;
 }
 
-#aussieText {
+.aussieText {
     font-size: 20px;
 }
 
 #temp {
+    /* background-image: url('img/background.png'); */
     font-size: 20px;
 }
 
@@ -314,7 +315,7 @@ header nav a:hover {
     justify-content: space-around;
 }
 
-#test {
+.test {
     display: inline-flex;
     flex-direction: column;
     border: 2px solid black;
@@ -328,7 +329,7 @@ header nav a:hover {
     text-align: center;
 }
 
-@media screen and (min-width: 600px) and (max-width: 899px){
+@media screen and (min-width: 700px) and (max-width: 899px){
     .nationPictures {
         display: grid;
         grid-template-columns: 50% 50%;
@@ -345,20 +346,20 @@ header nav a:hover {
         height: 150px;
         border: 2.5px solid black;
     }
-    #yuvraj {
+    .yuvraj {
         grid-row-start: 4;
     }
-    #yuvrajVideo {
+    .yuvrajVideo {
         display: grid;
         grid-row-start: 3;
         padding-top: 30px;
         justify-content: center;
     }
-    #yuvrajVideo iframe {
+    .yuvrajVideo iframe {
         width: 400px;
         height: 300px;
     }
-    #indiaNotablePlayers {
+    .indiaNotablePlayers {
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: auto auto auto auto;
@@ -388,16 +389,16 @@ header nav a:hover {
         vertical-align: bottom;
         border: 2px solid black;
     }
-    #sachin{
+    .sachin{
         grid-column-start: 1;
     }
-    #donPics {
+    .donPics {
         display: flex;
         justify-content: center;
         grid-row-start: 1;
     }
     
-    #donPics ul {
+    .donPics ul {
         display: flex;
         flex-wrap: wrap;
         list-style-type: none;
@@ -405,19 +406,19 @@ header nav a:hover {
         padding-top: 15px;
     }
     
-    #donPics li {
+    .donPics li {
         height: 200px;
         flex-grow: 1;
     }
     
-    #donPics img {
+    .donPics img {
         max-height: 100%;
         min-width: 100%;
         object-fit: fit;
         vertical-align: bottom;
         border: 2px solid black;
     }
-    #firstVideo {
+    .firstVideo {
         display: grid;
         justify-content: center;
         grid-row-start: 1;
@@ -491,20 +492,24 @@ header nav a:hover {
         height: 100%;
         object-fit: cover;
     }
-    #firstVideo{
+    .firstVideo{
         overflow: hidden;
     }
-    #firstVideo iframe {
+    .firstVideo iframe {
         width: 400px;
         height: 300px;
+    }
+    #temp {
+        /* background-image: url('img/background.png'); */
+        font-size: 20px;
     }
 }
 
 @media screen and (min-width: 900px) {
-    #firstVideo{
+    .firstVideo{
         overflow: hidden;
     }
-    #test {
+    .test {
         flex-direction: row;
         width: 30%;
     }
@@ -519,13 +524,13 @@ header nav a:hover {
     .nationPictures img {
         /* display: flex; */
         object-fit: cover;
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
         width:  100%;
         height: 75%;
         border: 2.5px solid black;
     }
 
-    #indiaNotablePlayers {
+    .indiaNotablePlayers {
         display: grid;
         grid-template-columns: 50% 50%;
     }
@@ -553,14 +558,14 @@ header nav a:hover {
         vertical-align: bottom;
         border: 2px solid black;
     }
-    #sachin{
+    .sachin{
         grid-column-start: 2;
     }
     #sachinText {
         padding-top: 90px;
     }
     
-    #yuvrajVideo {
+    .yuvrajVideo {
         display: grid;
         grid-row-start: 3;
         /* border: 2px solid black; */
@@ -569,19 +574,19 @@ header nav a:hover {
         overflow: hidden;
     }
 
-    #yuvrajVideo iframe {
+    .yuvrajVideo iframe {
         width: 560px;
         height: 315px;
         
     }
 
-    #donPics {
+    .donPics {
         display: flex;
         justify-content: center;
         grid-row-start: 2;
     }
     
-    #donPics ul {
+    .donPics ul {
         display: flex;
         flex-wrap: wrap;
         list-style-type: none;
@@ -589,19 +594,19 @@ header nav a:hover {
         padding-top: 15px;
     }
     
-    #donPics li {
+    .donPics li {
         height: 200px;
         flex-grow: 1;
     }
     
-    #donPics img {
+    .donPics img {
         max-height: 100%;
         min-width: 100%;
         object-fit: fit;
         vertical-align: bottom;
         border: 2px solid black;
     }
-    #firstVideo {
+    .firstVideo {
         display: grid;
         justify-content: center;
         grid-row-start: 2;
@@ -674,5 +679,9 @@ header nav a:hover {
         width: 100%;
         height: 100%;
         object-fit: cover;
+    }
+    #temp {
+        /* background-image: url('img/background.png'); */
+        font-size: 20px;
     }
 }
