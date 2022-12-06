@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <link rel="icon" type="image/png" href="images/logo-drk.png" /> -->
+    <!-- <link rel="stylesheet" type="text/css" href="css/html5reset.css"> -->
+
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href='https://fonts.googleapis.com/css?family=Coming Soon' rel='stylesheet'>
     <title>SI 339 Final Project</title>
@@ -20,14 +22,15 @@
         <div class = "navigation">
             <nav id = "navTemp">
                 <ul>
-                    <li><a href="index.html" tabindex = "1" class = "visitedLink">Home Page</a></li>
-                    <li><a href = "about.html" tabindex = "1">About Me</a></li>
-                    <li><a href = "aboutCricket.html" tabindex = "1">About Cricket</a></li>
+                    <li><a href="index.html" class = "visitedLink">Home Page</a></li>
+                    <li><a href = "about.html">About Me</a></li>
+                    <li><a href = "aboutCricket.html">About Cricket</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <div id = "temp">
+        <div class = "background"></div>
         <div class = "homeIntro">
             Welcome to my website about the game of cricket! Here I will be giving everyone a brief introduction on the 9 best teams in cricket history. Click on any nation's flag to learn more!
         </div>
@@ -69,16 +72,10 @@
                 <figcaption>Pakistan</figcaption>
             </figure>
         </div>
-        <div class = "nationPictures">
-            
-        </div>
-        <div class = "nationPictures">
-            
-        </div>
     </div>
     <div id = "indiaDiv">
         <p>The Indian Cricket Team</p>
-        <div id = "frontPic"><img src = img/indiaWC.png alt = "India Cricket Team"></div>
+        <div class = "frontPic"><img src = img/indiaWC.png alt = "India Cricket Team"></div>
         
         <div id = "indiaText">
             The Indian cricket team is historically one of the most successful and feared cricket teams in the world (and no, there is obviously no bias here).
@@ -92,8 +89,8 @@
                 <li>Historic rivalry with Pakistan which dates back decades.</li>
             </ul>
         </nav>
-        <div id = "someNotable">Notable Players</div>
-        <div id = "indiaNotablePlayers">
+        <div class = "someNotable">Notable Players</div>
+        <div class = "indiaNotablePlayers">
             <div id = "flexPics">
                 <ul>
                     <li>
@@ -107,33 +104,25 @@
                     </li>
                 </ul>
             </div>
-            <div id = "sachin">
+            <div class = "sachin">
                 <h2>Sachin Tendulkar</h2>
                 <p id = "sachinText">Sachin Ramesh Tendulkar, born on April 24th, 1973, is a former Indian cricketer who is widely regarded as the greatest player the world has ever seen. Revered and respected across the globe for his consistency in all formats of the game, he is most fondly remembered for his picture perfect cover drives. Dubbed the "God of Cricket", his following extends beyond just Indian fans and his aura radiates across the sport even today. He is, as the kids say, the undisputed GOAT.</p>
             </div>
-
-           
-
-            <!-- <div id = "sachinPics">
-                <div id = sachin1><img src = img/sachin1.png alt = "Sachin Tendulkar"></div>
-                <div id = sachin2><img src = img/sachin4.png alt = "Sachin Tendulkar"></div>
-                <div id = sachin3><img src = img/sachin3.png alt = "Sachin Tendulkar"></div>
-            </div> -->
-            <div id = "yuvrajVideo">
+            <div class = "yuvrajVideo">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/8b0ubLO2MUE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <div id = "yuvraj">
+            <div class = "yuvraj">
                 <h2>Yuvraj Singh</h2>
                 <p>Yuvraj Singh, born on December 12th, 1981 is one the best all-rounders India has seen, popular for his spinning abilities in the bowling innings, and destructive six-hitting potential in the batting innings. The lore of Yuvraj Singh, however, extends beyond his genius on the field. Diagnosed with cancer in 2011, his grit and ability to never give in defined his image. Not only would he defeat his illness, he would, in 2011 itself, play a key role in India's World Cup triumph, taking home the Player of the Tournament award. An inspiration to many, he more than left his mark on all of the 1.4 billion Indians' hearts that watched him play, and has cemented his legacy in Indian cricket for eternity. Yuvi Paaji, as he is called by many, is remembered most perhaps for his iconic "Six Sixes" against England in 2007, when he became the first player ever to hit six sixes of all six balls of an over, that to against one of the most feared bowlers at the time: Stuart Broad. Motivated by an altercation with one of the other England players, he reminded the world what happens when you mess with India and when you mess with Yuvraj Singh. </p>
             </div>
         </div>
-        <button id = "kolkataClose" onclick = "closeIndia()">Close</button>
+        <button class = "kolkataClose" onclick = "closeIndia()">Close</button>
     </div>
     <div id = "australiaDiv">
         <p>The Australian Cricket Team</p>
-        <div id = "frontPic"><img src = img/aussieWC.png alt = "Australia Cricket Team"></div>
+        <div class = "frontPic"><img src = img/aussieWC.png alt = "Australia Cricket Team"></div>
         
-        <div id = "aussieText">
+        <div class = "aussieText">
             The Australian national cricket team is the joint oldest team in the world, speaking volumes to the accolades they have garnered over the years. The most succesfull cricket team to date, they have been feared all across the world, having a reputation for housing some of the world's most destructive batsmen, athletic fielders, and deadly bowlers - the whole package!
         </div>
         <nav>
@@ -145,9 +134,9 @@
             </ul>
         </nav>
         <!-- Notable Players: Don Bradman, Ricky Ponting, Shane Warne, Adam Gilchrist, Glenn Maxwell -->
-        <div id = "someNotable">Notable Players</div>
-        <div id = "indiaNotablePlayers">
-            <div id = "sachin">
+        <div class = "someNotable">Notable Players</div>
+        <div class = "indiaNotablePlayers">
+            <div class = "sachin">
                 <h2>Sir Don Bradman</h2>
                 <p>Donald George Bradman predates any cricketer from the modern age. 
                     "The Don," as he is famously called, never played any ICC-regulated cricket. 
@@ -160,7 +149,7 @@
                     highest echelons of the game will never be questioned.</p>
             </div>
             <!-- <div id = "don"><img src = img/don3.png alt = "Don Bradman"></div> -->
-            <div id = "donPics">
+            <div class = "donPics">
                 <ul>
                     <li>
                         <img src = img/don1.png alt = "Don">
@@ -170,10 +159,18 @@
                     </li>
                 </ul>
             </div>
-            <div id = "yuvrajVideo">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Q45BfqWmS_A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class = "yuvrajVideo">
+                <iframe 
+                    width="560" 
+                    height="315" 
+                    src="https://www.youtube.com/embed/Q45BfqWmS_A" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
             </div>
-            <div id = "yuvraj">
+            <div class = "yuvraj">
                 <h2>Shane Warne</h2>
                 <p>On 4th March, 2022, the world mourned the loss of one Shane Warne. 
                     There aren't many cricketers one would put above Shane Warne when listing out the all time greats, 
@@ -185,13 +182,13 @@
                     but Warney too, the bloke from Victoria. </p>
             </div>
         </div>
-        <button id = "kolkataClose" onclick = "closeAustralia()">Close</button>
+        <button class = "kolkataClose" onclick = "closeAustralia()">Close</button>
     </div>
     <div id = "englandDiv">
         <p>The English Cricket Team</p>
-        <div id = "frontPic"><img src = img/englandWC.png alt = "England Cricket Team"></div>
+        <div class = "frontPic"><img src = img/englandWC.png alt = "England Cricket Team"></div>
         
-        <div id = "aussieText">
+        <div class = "aussieText">
             The English national cricket represents England and Wales in international cricket, being one of the oldest and most iconic teams in the sport. They are the current holders of both the ODI and T20 world cups.
         </div>
         <nav>
@@ -202,9 +199,9 @@
                 <li>Once played a test game that lasted 14 days!</li>
             </ul>
         </nav>
-        <div id = "someNotable">Notable Players</div>
-        <div id = "indiaNotablePlayers">
-            <div id = "sachin">
+        <div class = "someNotable">Notable Players</div>
+        <div class = "indiaNotablePlayers">
+            <div class = "sachin">
                 <h2>Sir Alastair Cook</h2>
                 <p>Alastair Cook is a blast from the past. A traditional opener in every sense of the word, he was notoriously difficult to dismiss for even the best in the world. 
                     The fifth highest run scorer in test history and England's highest capped test player, he was a specialist who seemed to, at times, 
@@ -213,7 +210,7 @@
                     you'd be a fool to underestimate his quality. Sir Alastair Cook might very well be one of the most underrated cricketers out there, 
                     and one can only hope history does him justice.</p>
             </div>
-            <div id = "donPics">
+            <div class = "donPics">
                 <ul>
                     <li>
                         <img src = img/cook1.png alt = "Don">
@@ -223,7 +220,7 @@
                     </li>
                 </ul>
             </div>
-            <div id = "yuvrajVideo">
+            <div class = "yuvrajVideo">
                 <iframe 
                     width="560" 
                     height="315" 
@@ -234,7 +231,7 @@
                     allowfullscreen>
                 </iframe>
             </div>
-            <div id = "yuvraj">
+            <div class = "yuvraj">
                 <h2>Ben Stokes</h2>
                 <p>Born in New Zealand, made in England, Ben Stokes is one of the best players in the world today. Unlike others on that particular list, 
                     he is the only one who boasts expert skills in bowling, batting and fielding. An all-rounder of the highest quality, 
@@ -248,12 +245,12 @@
             </div>
         </div>
         <!-- Notable Players: Kevin Pietersen, Jos Buttler, Stuart Broad, Graham Gooch -->
-        <button id = "kolkataClose" onclick = "closeEngland()">Close</button>
+        <button class = "kolkataClose" onclick = "closeEngland()">Close</button>
     </div>
     <div id = "bangladeshDiv">
         <p>The Bangladeshi Cricket Team</p>
-        <div id = "frontPic"><img src = img/bangCricket.jpeg alt = "Bangladesh Cricket Team"></div>
-        <div id = "aussieText">
+        <div class = "frontPic"><img src = img/bangCricket.jpeg alt = "Bangladesh Cricket Team"></div>
+        <div class = "aussieText">
             The Bangladeshi cricket team are a relatively new power in the cricketing sphere, captained by Shakib Al Hasan in tests and T20s, and Tanim Iqbal in ODIs. Although they are not the most consistent in their results, they are known to be able to cause upsets at any point. Their team has changed drastically in the past few years and gained the respect of other nations in their recent world cup outings!
         </div>
         <nav>
@@ -264,12 +261,20 @@
                 <li>Have improved exponentially in the past decade, now becoming a stronghold cricketing nation.</li>
             </ul>
         </nav>
-        <div id = "someNotable">The Heart of Bangladeshi Cricket</div>
-        <div id = "indiaNotablePlayers">
-            <div id = "firstVideo">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/LRtEJPSj2-8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class = "someNotable">The Heart of Bangladeshi Cricket</div>
+        <div class = "indiaNotablePlayers">
+            <div class = "firstVideo">
+                <iframe 
+                    width="560" 
+                    height="315" 
+                    src="https://www.youtube.com/embed/LRtEJPSj2-8" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
             </div>
-            <div id = "sachin">
+            <div class = "sachin">
                 <h2>Shakib Al Hasan</h2>
                 <p>Every year most cricket fans are faced with the same question: How is Shakib Al Hasan still playing? A man who is seemingly always moments away 
                     from retirement, Shakib Al Hasan has found a way to stay at the top of the game and keep Bangladesh competitive for over a decade and a half. 
@@ -282,13 +287,13 @@
             </div>
         </div>
         <!-- Notable players: Shakib Al Hasan, Mushfiqur Rahim, Mashrafe Mortaza, Tanim Iqbal -->
-        <button id = "kolkataClose" onclick = "closeBangladesh()">Close</button>
+        <button class = "kolkataClose" onclick = "closeBangladesh()">Close</button>
     </div>
     <div id = "sriLankaDiv">
         <p>The Sri Lankan Cricket Team</p>
-        <div id = "frontPic"><img src = img/srilankaAsia.png alt = "Sri Lanka Cricket Team"></div>
+        <div class = "frontPic"><img src = img/srilankaAsia.png alt = "Sri Lanka Cricket Team"></div>
         
-        <div id = "aussieText">
+        <div class = "aussieText">
             The Sri Lankan national cricket team are a historic team, rising from underdog status to causing a great upset and winning the ODI world cup in 1996.
         </div>
         <nav>
@@ -299,9 +304,9 @@
                 <li>Holds the world record for highest team total in test cricket (952 runs against India).</li>
             </ul>
         </nav>
-        <div id = "someNotable">Notable Players / Moments</div>
-        <div id = "indiaNotablePlayers">
-            <div id = "sachin">
+        <div class = "someNotable">Notable Players / Moments</div>
+        <div class = "indiaNotablePlayers">
+            <div class = "sachin">
                 <h2>Muttiah Muralitharan</h2>
                 <p>You simply cannot hate Muttiah Muralitharan. A globally admired superstar, Muralitharan is one of the nicest men to ever play the game. 
                     Nevertheless, beware! Behind that sweet smile is a devilishly deceptive googly and a near-impossible to read doosra. 
@@ -327,23 +332,7 @@
                 <img src = img/golden3.png alt = "Don" id = "golden3">
                 <img src = img/golden4.png alt = "Don" id = "golden4">
             </div>
-            <!-- <div id = "goldenPics">
-                <ul>
-                    <li>
-                        <img src = img/golden1.png alt = "Don">
-                    </li>
-                    <li>
-                        <img src = img/golden2.png alt = "Don">
-                    </li>
-                    <li>
-                        <img src = img/golden3.png alt = "Don">
-                    </li>
-                    <li>
-                        <img src = img/golden4.png alt = "Don">
-                    </li>
-                </ul>
-            </div> -->
-            <div id = "yuvraj">
+            <div class = "yuvraj">
                 <h2>The Golden Era</h2>
                 <p>If the Sri Lankan's of the 90s were the pioneers, the Sri Lankans of the late 2000s and the early 2010s were the golden era. 
                     A team of 11 world class athletes, it is almost impossible to pick one standout player. Each individual brought their own unique style as 
@@ -356,13 +345,13 @@
                     that they will never be forgotten.</p>
             </div>
         </div>
-        <button id = "kolkataClose" onclick = "closeSriLanka()">Close</button>
+        <button class = "kolkataClose" onclick = "closeSriLanka()">Close</button>
     </div>
     <div id = "newZealandDiv">
         <p>The New Zealand Cricket Team</p>
-        <div id = "frontPic"><img src = img/nz.png alt = "New Zealand Cricket Team"></div>
+        <div class = "frontPic"><img src = img/nz.png alt = "New Zealand Cricket Team"></div>
         
-        <div id = "aussieText">
+        <div class = "aussieText">
             The New Zealand national cricket team - one of the scariest teams to face due to their lethal bowling attack and explosive batsmen. They are unfortunately, commonly known as the unluckiest cricket team, as they have often failed to perform on the big stage, such as playoff games, in spite of great performances in league stages.
         </div>
         <nav>
@@ -372,9 +361,9 @@
                 <li>Often known as the humblest and most kind teams, due to their unwavering sportsmanship and gestures on the field.</li>
             </ul>
         </nav>
-        <div id = "someNotable">Notable Players / Moments</div>
-        <div id = "indiaNotablePlayers">
-            <div id = "sachin">
+        <div class = "someNotable">Notable Players / Moments</div>
+        <div class = "indiaNotablePlayers">
+            <div class = "sachin">
                 <h2>Ross Taylor</h2>
                 <p>New Zealand's highest run scorer of all time, Ross Taylor is one of the greats of the game. His expertise in the longer formats of the game 
                     is well-respected and, as the cliché goes with New Zealand players, he went about his business without much fuss. Along with being one of the 
@@ -383,7 +372,7 @@
                     is often overlooked by the mainstream media. Although he will most probably lose the mantle of highest run-scorer for New Zealand to the next 
                     player on our list, his contribution to the national team will be fondly remembered.</p>
             </div>
-            <div id = "donPics">
+            <div class = "donPics">
                 <ul>
                     <li>
                         <img src = img/ross.png alt = "Ross Taylor">
@@ -393,7 +382,7 @@
                     </li>
                 </ul>
             </div>
-            <div id = "yuvrajVideo">
+            <div class = "yuvrajVideo">
                 <iframe 
                     width="560" 
                     height="315" 
@@ -404,7 +393,7 @@
                     allowfullscreen>
                 </iframe>
             </div>
-            <div id = "yuvraj">
+            <div class = "yuvraj">
                 <h2>Kane Williamson</h2>
                 <p>New Zealand are known today as the “good guys” of cricket. Regardless of whether or not they would use that tag to describe themselves, it is 
                     one that has been given to them by the cricketing world, and nobody embodies that idea more than their captain: Kane Williamson. Born in 1990, 
@@ -415,13 +404,13 @@
                     but he is by far one of the most respected.</p>
             </div>
         </div>
-        <button id = "kolkataClose" onclick = "closeNewZealand()">Close</button>
+        <button class = "kolkataClose" onclick = "closeNewZealand()">Close</button>
     </div>
     <div id = "westIndiesDiv">
         
         <p>The West Indies Cricket Team</p>
-        <div id = "frontPic"><img src = img/windies.png alt = "West Indies Cricket Team"></div>
-        <div id = "aussieText">
+        <div class = "frontPic"><img src = img/windies.png alt = "West Indies Cricket Team"></div>
+        <div class = "aussieText">
             The West Indies cricket team comprises of multiple nations spanning the countries and territories in the Caribbean region. They are popularly known as the most entertaining team to watch due to their explosive batting history and carnage in every T20 tournament they partake in. From the 1970s to the 1990s, they were consolidated as the strongest team in the world in all formats, possessing an all-time list of myriads of great athletes, some of whom will be disclosed below.
         </div>
         <nav>
@@ -431,9 +420,9 @@
                 <li>Have won the T20 world cup twice (2012, 2016).</li>
             </ul>
         </nav>
-        <div id = "someNotable">Notable Players / Moments</div>
-        <div id = "indiaNotablePlayers">
-            <div id = "sachin">
+        <div class = "someNotable">Notable Players / Moments</div>
+        <div class = "indiaNotablePlayers">
+            <div class = "sachin">
                 <h2>Sir Vivian Richards</h2>
                 <p>As cricket moved towards a more organized structure and towards a more global reach, the platform was set for the first modern superstar of the 
                     game: Vivian Richards. The shining jewel of that great West Indies team which won the first two World Cups, he was unequivocally the best 
@@ -441,7 +430,7 @@
                     Widely regarded as one of the three greatest players of all time (along with Sir Don Bradman and Sachin Tendulkar), it isn't too bold to 
                     claim that, as the cliché goes: "they don't make them like Sir Viv anymore".</p>
             </div>
-            <div id = "donPics">
+            <div class = "donPics">
                 <ul>
                     <li>
                         <img src = img/viv.png alt = "Vivian Richards">
@@ -451,7 +440,7 @@
                     </li>
                 </ul>
             </div>
-            <div id = "yuvrajVideo">
+            <div class = "yuvrajVideo">
                 <iframe width="560" 
                     height="315" 
                     src="https://www.youtube.com/embed/IQFXmIJ8x_g" 
@@ -461,7 +450,7 @@
                     allowfullscreen>
                 </iframe>
             </div>
-            <div id = "yuvraj">
+            <div class = "yuvraj">
                 <h2>Christopher Henry Gayle</h2>
                 <p>When the first ever cricket World Cup was organized, West Indies were the stars. It felt only right then, that half a century later, 
                     when a new format was introduced into the game along with a World Cup of its own in T20s, that West Indies were at the forefront. 
@@ -475,13 +464,13 @@
                     be broken. </p>
             </div>
         </div>
-        <button id = "kolkataClose" onclick = "closeWestIndies()">Close</button>
+        <button class = "kolkataClose" onclick = "closeWestIndies()">Close</button>
     </div>
     <div id = "southAfricaDiv">
         <p>The South African Cricket Team</p>
-        <div id = "frontPic"><img src = img/southafrica.png alt = "South Africa Cricket Team"></div>
+        <div class = "frontPic"><img src = img/southafrica.png alt = "South Africa Cricket Team"></div>
         
-        <div id = "aussieText">
+        <div class = "aussieText">
             The South African national cricket team are almost always everybody's second team. Universally loved and extremely entertaining, they have never been able to get their hands on a major ICC honor, but if success were measured in how many hearts a team has won, South Africa would be at the top of the pile.
         </div>
         <nav>
@@ -491,9 +480,9 @@
                 <li>Historically known for churning out exceptional fielders</li>
             </ul>
         </nav>
-        <div id = "someNotable">Notable Players / Moments</div>
-        <div id = "indiaNotablePlayers">
-            <div id = "sachin">
+        <div class = "someNotable">Notable Players / Moments</div>
+        <div class = "indiaNotablePlayers">
+            <div class = "sachin">
                 <h2>Dale Steyn</h2>
                 <p>South Africa's all time highest wicket taker, Dale Steyn was simply one of the best to do it. Widely regarded as the greatest test bowler of his 
                     generation, he racked up numerous awards including Test Player of the Year in 2008, an award historically difficult for bowlers to win. 
@@ -501,7 +490,7 @@
                      (A little over five years). The “Steyn Gun,” as the name suggests, is a tag that highlights his greatest asset: pace. Never before has a player 
                      combined pace and precision as well as Steyn did. A batsman's greatest nightmare, he is globally loved, much like our next player…</p>
             </div>
-            <div id = "firstVideo">
+            <div class = "firstVideo">
                 <iframe 
                     width="560" 
                     height="315" 
@@ -512,7 +501,7 @@
                     allowfullscreen>
                 </iframe>
             </div>
-            <div id = "yuvraj">
+            <div class = "yuvraj">
                 <h2>Abraham Benjamin De Villiers</h2>
                 <p>AB De Villiers, or ABD, is indescribable. No one paragraph can encapsulate the genius of this man, who excelled at every aspect of the game, 
                     on and off the field. A favorite of not only Proteas fans, but even neutrals, he is renowned for his ability to play shots all over the field, 
@@ -522,7 +511,7 @@
                     generation, as they teamed up to represent the Royal Challengers Bangalore. Although they never won a major honor as a team, they left the 
                     cricketing memories with some very fond memories.</p>
             </div>
-            <div id = "yuvrajVideo">
+            <div class = "yuvrajVideo">
                 <iframe 
                     width="560" 
                     height="315" 
@@ -534,13 +523,13 @@
                 </iframe>
             </div>
         </div>
-        <button id = "kolkataClose" onclick = "closeSouthAfrica()">Close</button>
+        <button class = "kolkataClose" onclick = "closeSouthAfrica()">Close</button>
     </div>
     <div id = "pakistanDiv">
         <p>The Pakistani Cricket Team</p>
-        <div id = "frontPic"><img src = img/pak1992.png alt = "Pakistan Cricket Team"></div>
+        <div class = "frontPic"><img src = img/pak1992.png alt = "Pakistan Cricket Team"></div>
         
-        <div id = "aussieText">
+        <div class = "aussieText">
             Pakistan have scary bowlers and decent batsmen. Wasim Akram, Shoaib Akhtar are the goats.
         </div>
         <nav>
@@ -553,10 +542,10 @@
                 <li>Decades-long rivalry with arch-nemesis India.</li>
             </ul>
         </nav>
-        <div id = "someNotable">Notable Players / Moments</div>
-        <div id = "indiaNotablePlayers">
+        <div class = "someNotable">Notable Players / Moments</div>
+        <div class = "indiaNotablePlayers">
             
-            <div id = "sachin">
+            <div class = "sachin">
                 <h2>Shahid Afridi</h2>
                 <p>Shahid Afridi burst onto the scene like few. In his second ever international game in 1996, he broke the record for the fastest ever ODI century
                      at the time, scoring his ton in 37 balls and establishing his prowess as a lights out power hitter. This is a tag he would never lose until the 
@@ -565,7 +554,7 @@
                       and more often than not, lead them to victory. One of the most memorable captains of the Pakistan national team, Afridi's impact on the sport 
                       in his home country is unlikely to be forgotten.</p>
             </div>
-            <div id = "donPics">
+            <div class = "donPics">
                 <ul>
                     <li>
                         <img src = img/afridi1.png alt = "Afridi">
@@ -575,7 +564,7 @@
                     </li>
                 </ul>
             </div>
-            <div id = "yuvraj">
+            <div class = "yuvraj">
                 <h2>Wasim Akram</h2>
                 <p>Pakistan have always had a reputation of nurturing deadly fast bowlers, but that reputation didn't come from nowhere. It came from Wasim Akram. 
                     Considered one of the greatest fast bowlers of all time, he was the first bowler to reach 500 wickets in ODIs. A World Cup winner and ICC Hall 
@@ -584,7 +573,7 @@
                      He remained at the top of the game for almost his entire career and famously had a great rivalry with Sachin Tendulkar, the standout batsmen 
                      from Pakistan's historical rivals: India. </p>
             </div>
-            <div id = "yuvrajVideo">
+            <div class = "yuvrajVideo">
                 <iframe 
                     width="560" 
                     height="315" 
@@ -596,7 +585,7 @@
                 </iframe>
             </div>
         </div>
-        <button id = "kolkataClose" onclick = "closePakistan()">Close</button>
+        <button class = "kolkataClose" onclick = "closePakistan()">Close</button>
     </div>
   </body>
   <footer>
